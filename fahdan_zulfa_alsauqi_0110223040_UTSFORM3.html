@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS FORM HTML</title>
+</head>
+<body>
+    <fieldset style="width: max-content;">
+        <legend>Daftarkan Alumni</legend>
+    
+    <table>
+        <tr>
+            <td>
+                <label for="cariNamaAlumni">Cari Nama Alumni:</label>
+            </td>
+
+            <td>
+                <input type="search" name="search" id="cariNamaAlumni">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Program Studi:</td>
+            <td>
+                <select name="program studi" id="program studi">
+                <option value="">Sistem Informasi</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Bisnis Digital">Bisnis Digital</option>
+            </select>
+            </td>
+        </tr>    
+
+        <tr>
+            <td>
+                <label for="tahunMasuk">Tahun Masuk:</label>
+            </td>
+
+            <td>
+                <input type="text" name="tahunMasuk" id="tahunMasuk">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="tahunLulus">Tahun Lulus:</label>
+            </td>
+
+            <td>
+                <input type="text" name="tahunLulus" id="tahunLulus">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+               <label for="alamatLinkedln">Alamat Linkedln:</label>
+           </td>
+   
+               <td>
+                   <input type="text" name="alamatLinkedln" id="alamatLinkedln">
+               </td>
+
+               <tr>
+                <td>
+                   <label for="pekerjaan">Pekerjaan:</label>
+               </td>
+       
+                   <td>
+                       <input type="text" name="pekerjaan" id="pekerjaan">
+                   </td>
+
+                   <tr>
+                    <td>
+                       <label for="alamatKantor">Alamat Kantor:</label>
+                   </td>
+           
+                       <td>
+                           <textarea name="alamat" id="alamat" cols="30" rows="4"></textarea>
+                       </td>
+
+                       <tr>
+                        <td>
+                           <label for="pengurusAlumni">Pengurus Alumni</label>
+                       </td>
+               
+                           <td>
+                            <input type="radio" name="crust" value="ya">Ya
+                            <input type="radio" name="crust" value="tidak">Tidak
+                           </td>
+
+                           <tr>
+                            <td></td>
+                            <td>
+                                <button type="submit" class="btn-blue">Simpan</button>
+                                <button type="reset" class="btn-red">Reset</button>
+                            </td>
+                        </tr>         
+    </table>
+    </fieldset>
+
+</body>
+</html>
